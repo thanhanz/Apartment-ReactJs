@@ -9,6 +9,4 @@ const ProtectedRoute = () => {
         token ? <Outlet/> : <Navigate to="/login" />
     )
 }
-
-
 export default ProtectedRoute;
